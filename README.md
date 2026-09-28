@@ -43,7 +43,7 @@ $$
 
 Status: **UNFROZEN** · 28 September 2026 · Nicholas S. Kouns · AIMS Research Institute
 
-[Live page](https://nicholaskouns-create.github.io/E47-Electroweak-Identities/) · [How to read](docs/HOW_TO_READ.md) · [Symbolic proof](docs/E47_Electroweak_and_Mass_Ladder_Recovery.md) · [Audit table](docs/audit_ladder.md) · [Generator](src/e47_electroweak_identities.py)
+[Live page](https://nicholaskouns-create.github.io/E47-Electroweak-Identities/) · [How to read](docs/HOW_TO_READ.md) · [Symbolic proof](docs/E47_Electroweak_and_Mass_Ladder_Recovery.md) · [Audit table](docs/audit_ladder.md) · [Supplemental MC](docs/SUPPLEMENTAL_MONTE_CARLO.md) · [Generator](src/e47_electroweak_identities.py)
 
 ---
 
@@ -66,14 +66,13 @@ V2^{⊗ 3}  →  C  →  K=(C-6I)(C-30I)  →  E47 = ker K
 ## What this is not
 
 - Not a fit. No continuous parameters were adjusted to the masses.
-- Not a look-elsewhere test. $T_{\mathrm{obs}}=0.007692169$ is an audit RMS, not a $p$-value.
+- $T_{\mathrm{obs}}=0.007692169$ is an audit RMS, not a $p$-value.
 - Not a claim that the integer-$246$ fifteen-row ladder is the instrument.
   That table is [audit only](docs/audit_ladder.md).
 - $c(3\,\mathrm{GeV})$ is a running of $47/37$, not a recovered closed form.
+- Supplemental matched-form $\hat p$ values live in a [separate note](docs/SUPPLEMENTAL_MONTE_CARLO.md). They pressure the audit ladder. They do not replace $I_1,I_2,I_3$.
 
 ## Audit snapshot
-
-The recovered integer ladder against the comparison column:
 
 $$
 \mathrm{median}|\delta|=0.33\%,\quad
@@ -82,7 +81,13 @@ $$
 \max|\delta|=1.74\%.
 $$
 
-Full fifteen-row table: [docs/audit_ladder.md](docs/audit_ladder.md).
+Supplemental matched-form audit, certified executed, not deposited as raw draws:
+
+$$
+\hat p_{\times 3}\approx 0.00714,
+\qquad
+\hat p_{\mathrm{decade}}\approx 0.001575.
+$$
 
 ## Run
 
@@ -90,11 +95,9 @@ Full fifteen-row table: [docs/audit_ladder.md](docs/audit_ladder.md).
 python3 src/e47_electroweak_identities.py
 ```
 
-Machine copy of the headline map: [data/identities.json](data/identities.json).
+Machine copies: [data/identities.json](data/identities.json) · [data/supplemental_monte_carlo.json](data/supplemental_monte_carlo.json).
 
 ## City
-
-This plate sits next to the executable research repository.
 
 | Surface | Role |
 |---|---|
