@@ -11,6 +11,6 @@ Read in this order.
    `H = V2^{⊗ 3}` has dimension 125. The Casimir pencil `K=(C-6I)(C-30I)` has kernel dimension 47. Then `Omega_c = 47/125`.
 3. **The residuals** — headline comparison against PDG-style anchors. Not a fit.
 4. **The audit table** — the recovered integer-246 ladder. Useful, not the claim.
-5. **What is not here** — no Monte Carlo, no look-elsewhere p-value, no claim that `T_obs` is a significance.
+5. **Supplemental Monte Carlo** — matched-form $\hat p$ values on the audit ladder only. See [SUPPLEMENTAL_MONTE_CARLO.md](SUPPLEMENTAL_MONTE_CARLO.md). These are not $I_{\mathrm{EW}}$ and they are not $T_{\mathrm{obs}}$.
 
 If a sentence cannot be traced to `G_F`, `Omega_c`, `sqrt(10/13)`, or `172/125`, it is not a headline identity.
