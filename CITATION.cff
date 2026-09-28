@@ -1,0 +1,29 @@
+cff-version: 1.2.0
+message: "If you use this instrument, cite the repository and the exact commit SHA."
+title: "E47 Electroweak Identities"
+short-title: "E47 Electroweak Identities"
+version: "2026-09-28"
+date-released: "2026-09-28"
+type: software
+license: "CC0-1.0"
+repository-code: "https://github.com/nicholaskouns-create/E47-Electroweak-Identities"
+url: "https://nicholaskouns-create.github.io/E47-Electroweak-Identities/"
+abstract: >-
+  First-principles electroweak identity map from the E47 kernel
+  K=(C-6I)(C-30I) on H=V2^3 (dim 125). Omega_c=47/125.
+  Sole dimensionful input G_F. Headline identities:
+  m_Z^(0)=v Omega_c, m_W/m_Z=sqrt(10/13), m_t/m_H=1+Omega_c=172/125.
+  The integer-246 mass ladder is audit-only. No look-elsewhere p-value is claimed.
+authors:
+  - family-names: Kouns
+    given-names: Nicholas Shane
+    affiliation: "AIMS Research Institute / Recursive Intelligence Consortium"
+    email: nkouns@aimsresearch.org
+keywords:
+  - E47
+  - electroweak
+  - Omega_c
+  - 47/125
+  - Fermi constant
+  - KKP-R
+  - Casimir kernel
