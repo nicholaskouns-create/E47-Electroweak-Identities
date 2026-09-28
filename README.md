@@ -43,7 +43,7 @@ $$
 
 Status: **UNFROZEN** · 28 September 2026 · Nicholas S. Kouns · AIMS Research Institute
 
-[Live page](https://nicholaskouns-create.github.io/E47-Electroweak-Identities/) · [How to read](docs/HOW_TO_READ.md) · [Symbolic proof](docs/E47_Electroweak_and_Mass_Ladder_Recovery.md) · [Audit table](docs/audit_ladder.md) · [Supplemental MC](docs/SUPPLEMENTAL_MONTE_CARLO.md) · [Generator](src/e47_electroweak_identities.py)
+[Live page](https://nicholaskouns-create.github.io/E47-Electroweak-Identities/) · [How to read](docs/HOW_TO_READ.md) · [Symbolic proof](docs/E47_Electroweak_and_Mass_Ladder_Recovery.md) · [Audit table](docs/audit_ladder.md) · [Look-elsewhere audit source](audit/e47_mass_ladder_look_elsewhere_audit.py) · [Supplemental MC](docs/SUPPLEMENTAL_MONTE_CARLO.md) · [Generator](src/e47_electroweak_identities.py)
 
 ---
 
