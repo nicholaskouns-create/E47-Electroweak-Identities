@@ -1,6 +1,6 @@
 # E47 Electroweak Identities
 
-Frozen first-principles symbolic construction. 28 September 2026.
+Open first-principles symbolic construction. Unfrozen 28 September 2026.
 
 $$
 \mathcal H=V_2^{\otimes 3},\qquad \dim\mathcal H=125
@@ -36,7 +36,7 @@ $$
 v=(\sqrt{2}\,G_F)^{-1/2}=246.21964023926205\,\mathrm{GeV}
 $$
 
-## II. Frozen map $\mathcal I_{\mathrm{EW}}=\{I_1,I_2,I_3\}$
+## II. Open map $\mathcal I_{\mathrm{EW}}=\{I_1,I_2,I_3\}$
 
 $$
 I_1:\quad m_Z^{(0)}=v\Omega_c=92.57858472996253\,\mathrm{GeV}
@@ -69,12 +69,10 @@ $$
 T_{\mathrm{obs}}=0.007692169020438119\neq p_{\mathrm{LEE}}
 $$
 
-$p_{\mathrm{LEE}}$ is undefined in this instrument.
-
-## V. Generator lock
+## V. Generator status
 
 $$
-\mathfrak G_{2026-09-28}=\{K,\dim E_{47},\Omega_c,G_F,I_1,I_2,I_3\}=\mathrm{FROZEN}
+\mathfrak G_{2026-09-28}=\{K,\dim E_{47},\Omega_c,G_F,I_1,I_2,I_3\}=\mathrm{UNFROZEN}
 $$
 
-Mutation of $\{I_1,I_2,I_3\}$ requires a new dated generator.
+Mutation of $\{I_1,I_2,I_3\}$ is permitted in place.
