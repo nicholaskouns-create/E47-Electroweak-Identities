@@ -1,0 +1,57 @@
+{
+  "Omega_c": "47/125",
+  "affiliation": "AIMS Research Institute",
+  "audit_stats": {
+    "T_obs": 0.007692169020438119,
+    "max_abs_pct": 1.7380952380952264,
+    "mean_abs_pct": 0.5641436413326996,
+    "median_abs_pct": 0.33030074752274047,
+    "n": 15,
+    "note": "AUDIT statistic. Not a look-elsewhere p-value.",
+    "rms_pct": 0.7692169020438119
+  },
+  "author": "Nicholas S. Kouns",
+  "date_utc": "2026-09-28",
+  "dim_E47": 47,
+  "headline": {
+    "G_F_GeV_m2": 1.1663788e-05,
+    "Omega_c": 0.376,
+    "Omega_c_frac": "47/125",
+    "dim_E47": 47,
+    "identities": {
+      "I1": "m_Z^(0) = v * Omega_c",
+      "I2": "m_W / m_Z = sqrt(10/13)",
+      "I3": "m_t / m_H = 1 + Omega_c = 172/125"
+    },
+    "kernel": "(C - 6I)(C - 30I)",
+    "m_H_algebraic_GeV": 125.0,
+    "m_W0_GeV": 81.19679015350891,
+    "m_W_over_m_Z": 0.8770580193070292,
+    "m_Z0_GeV": 92.57858472996253,
+    "m_t_algebraic_GeV": 172.0,
+    "m_t_over_m_H": 1.376,
+    "v_GeV": 246.21964023926205
+  },
+  "identity_residuals": {
+    "m_W_over_m_Z": {
+      "measured": 0.8813571961222968,
+      "pdg_listed": 0.88136,
+      "predicted": 0.8770580193070292,
+      "residual_pct": -0.48779051605667484
+    },
+    "m_Z_over_v": {
+      "measured": 0.37035225911055986,
+      "predicted": 0.376,
+      "residual_pct": 1.5249646115305986
+    },
+    "m_t_over_m_H": {
+      "measured_audit": 1.3783546325878593,
+      "predicted": 1.376,
+      "residual_pct": -0.17082922871877868
+    }
+  },
+  "instrument": "E47 Electroweak Identities",
+  "kernel": "(C - 6I)(C - 30I)",
+  "look_elsewhere": "NOT COMPUTED. Not claimed.",
+  "status": "FROZEN"
+}
