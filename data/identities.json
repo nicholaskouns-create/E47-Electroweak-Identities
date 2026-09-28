@@ -18,5 +18,10 @@
     "m_W_over_m_Z": -0.48779051605667484,
     "m_t_over_m_H": -0.17082922871877868
   },
-  "look_elsewhere": "NOT COMPUTED. Not claimed."
+  "look_elsewhere": "SUPPLEMENTAL ONLY. See data/supplemental_monte_carlo.json.",
+  "supplemental_monte_carlo": {
+    "local_factor_x3_p_hat": 0.00714,
+    "same_decade_p_hat": 0.001575,
+    "headline_claim": false
+  }
 }
