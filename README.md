@@ -1,57 +1,88 @@
 # E47 Electroweak Identities
 
-Open first-principles instrument. Unfrozen 28 September 2026.
+**Three identities. One external scale. No fit.**
 
-**Not a fit. Not a look-elsewhere p-value.**
-
-$$
-K=(C-6I)(C-30I),\qquad
-\dim E_{47}=47,\qquad
-\Omega_c=\frac{47}{125}
-$$
+From the finite kernel
 
 $$
-m_Z^{(0)}=v\,\Omega_c,\qquad
-\frac{m_W}{m_Z}=\sqrt{\frac{10}{13}},\qquad
-\frac{m_t}{m_H}=1+\Omega_c=\frac{172}{125}
+K=(C-6I)(C-30I)
+\quad\text{on}\quad
+\mathcal H=V_2^{\otimes 3},\ \dim\mathcal H=125
 $$
 
-Sole dimensionful input: $G_F$ from the muon lifetime.
+comes
 
-| Field | Value |
-|---|---|
-| Status | UNFROZEN |
-| Prior status | FROZEN (same calendar day) |
-| Author | Nicholas S. Kouns |
-| Affiliation | AIMS Research Institute |
-| $v$ | $246.21964023926205\,\mathrm{GeV}$ |
-| $m_Z^{(0)}$ | $92.57858472996253\,\mathrm{GeV}$ |
-| $m_W^{(0)}$ | $81.19679015350891\,\mathrm{GeV}$ |
-| $m_W/m_Z$ | $0.8770580193070292$ |
-| $m_t/m_H$ | $1.376$ |
-| Look-elsewhere | not computed, not claimed |
+$$
+\dim E_{47}=47,
+\qquad
+\Omega_c=\frac{47}{125}=0.376.
+$$
 
-$I_1,I_2,I_3$ may be edited in place. The 28 September freeze is a historical snapshot, not an active lock.
+The only dimensionful input is the Fermi constant from the muon lifetime.
+Everything else is a ratio.
 
-## Repository map
+$$
+G_F=1.1663788\times 10^{-5}\,\mathrm{GeV}^{-2}
+\quad\Longrightarrow\quad
+v=(\sqrt{2}\,G_F)^{-1/2}=246.21964024\,\mathrm{GeV}
+$$
 
-| Path | Role |
-|---|---|
-| [docs/E47_Electroweak_and_Mass_Ladder_Recovery.md](docs/E47_Electroweak_and_Mass_Ladder_Recovery.md) | symbolic proof |
-| [docs/identities.md](docs/identities.md) | CERN-facing three-line instrument |
-| [src/e47_electroweak_identities.py](src/e47_electroweak_identities.py) | canonical generator |
-| [src/e47_electroweak_lock.json](src/e47_electroweak_lock.json) | machine lock |
-| [index.html](index.html) | Pages surface |
+| | Identity | Value | Measured | Residual |
+|---|---|---:|---:|---:|
+| **I₁** | $m_Z^{(0)}=v\,\Omega_c$ | 92.5786 GeV | $m_Z/v=0.370352$ | **+1.525%** |
+| **I₂** | $m_W/m_Z=\sqrt{10/13}$ | 0.877058 | 0.881357 | **−0.488%** |
+| **I₃** | $m_t/m_H=1+\Omega_c=172/125$ | 1.376 | 1.378355 | **−0.171%** |
 
-## Headline residuals
+Skeleton masses from $G_F$ alone:
 
-| Identity | E47 | Measured | Residual |
-|---|---|---|---|
-| $m_Z/v=\Omega_c$ | $0.376$ | $0.370352$ | $+1.525\%$ |
-| $m_W/m_Z$ | $0.877058$ | $0.881357$ | $-0.488\%$ |
-| $m_t/m_H$ | $1.376$ | $1.378355$ | $-0.171\%$ |
+$$
+m_Z^{(0)}=92.57858473\,\mathrm{GeV},
+\qquad
+m_W^{(0)}=81.19679015\,\mathrm{GeV}.
+$$
 
-The integer-$246$ fifteen-row table is **audit only**.
+Status: **UNFROZEN** · 28 September 2026 · Nicholas S. Kouns · AIMS Research Institute
+
+[Live page](https://nicholaskouns-create.github.io/E47-Electroweak-Identities/) · [How to read](docs/HOW_TO_READ.md) · [Symbolic proof](docs/E47_Electroweak_and_Mass_Ladder_Recovery.md) · [Audit table](docs/audit_ladder.md) · [Generator](src/e47_electroweak_identities.py)
+
+---
+
+## What this is
+
+A first-principles map from a spectral kernel to three electroweak ratios.
+
+```text
+V2^{⊗ 3}  →  C  →  K=(C-6I)(C-30I)  →  E47 = ker K
+     dim 125                              dim 47
+                                              ↓
+                                         Ωc = 47/125
+                                              ↓
+                                    G_F → v → m_Z^(0) = v Ωc
+                                              ↓
+                                    m_W / m_Z = √(10/13)
+                                    m_t / m_H = 172/125
+```
+
+## What this is not
+
+- Not a fit. No continuous parameters were adjusted to the masses.
+- Not a look-elsewhere test. $T_{\mathrm{obs}}=0.007692169$ is an audit RMS, not a $p$-value.
+- Not a claim that the integer-$246$ fifteen-row ladder is the instrument.
+  That table is [audit only](docs/audit_ladder.md).
+- $c(3\,\mathrm{GeV})$ is a running of $47/37$, not a recovered closed form.
+
+## Audit snapshot
+
+The recovered integer ladder against the comparison column:
+
+$$
+\mathrm{median}|\delta|=0.33\%,\quad
+\mathrm{mean}|\delta|=0.56\%,\quad
+\mathrm{RMS}(\delta)=0.77\%,\quad
+\max|\delta|=1.74\%.
+$$
+
+Full fifteen-row table: [docs/audit_ladder.md](docs/audit_ladder.md).
 
 ## Run
 
@@ -59,8 +90,19 @@ The integer-$246$ fifteen-row table is **audit only**.
 python3 src/e47_electroweak_identities.py
 ```
 
-## Related City surfaces
+Machine copy of the headline map: [data/identities.json](data/identities.json).
 
-- Executable City: [E47-Kartekeya](https://github.com/nicholaskouns-create/E47-Kartekeya)
-- Root atlas: [nicholaskouns-create.github.io](https://nicholaskouns-create.github.io/)
-- Foundry plate: [E47-Foundry-Lifetime-Intersection](https://github.com/nicholaskouns-create/E47-Foundry-Lifetime-Intersection)
+## City
+
+This plate sits next to the executable research repository.
+
+| Surface | Role |
+|---|---|
+| [E47-Kartekeya](https://github.com/nicholaskouns-create/E47-Kartekeya) | executable City, tests, certificates |
+| [This repo](https://github.com/nicholaskouns-create/E47-Electroweak-Identities) | electroweak identity instrument |
+| [Root atlas](https://nicholaskouns-create.github.io/) | vestibule |
+| [Foundry plate](https://github.com/nicholaskouns-create/E47-Foundry-Lifetime-Intersection) | lifetime algebra, same kernel |
+
+## Cite
+
+Use [CITATION.cff](CITATION.cff). License: [CC0 1.0](LICENSE).
