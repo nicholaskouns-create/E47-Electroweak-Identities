@@ -102,6 +102,7 @@ Machine copies: [data/identities.json](data/identities.json) · [data/supplement
 | Surface | Role |
 |---|---|
 | [E47-Kartekeya](https://github.com/nicholaskouns-create/E47-Kartekeya) | executable City, tests, certificates |
+| [Convergence + noiseless-subsystem certificate](https://github.com/nicholaskouns-create/E47-Kartekeya/blob/main/certificates/MC-E47-CONVERGENCE-NOISELESS-20260928-001.json) | machine-certified kernel convergence and C⁵⊗V₂ ⊕ C²⊗V₅ collective-SU(2) multiplicity closure |
 | [This repo](https://github.com/nicholaskouns-create/E47-Electroweak-Identities) | electroweak identity instrument |
 | [Root atlas](https://nicholaskouns-create.github.io/) | vestibule |
 | [Foundry plate](https://github.com/nicholaskouns-create/E47-Foundry-Lifetime-Intersection) | lifetime algebra, same kernel |
