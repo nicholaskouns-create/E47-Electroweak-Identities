@@ -1,0 +1,25 @@
+{
+  "instrument": "E47 Electroweak Identities",
+  "note": "SUPPLEMENTAL_MONTE_CARLO",
+  "status": "REGISTERED",
+  "date_utc": "2026-09-28",
+  "headline_claim": false,
+  "T_obs": 0.007692169,
+  "estimator": "(1 + count(T_null <= T_obs)) / (N_MC + 1)",
+  "N_MC": null,
+  "raw_draws_deposited": false,
+  "generator_source_deposited": false,
+  "results": [
+    {
+      "null": "local_factor_x3",
+      "p_hat": 0.00714,
+      "description": "Matched-form search with local factor x3 neighborhood."
+    },
+    {
+      "null": "same_decade",
+      "p_hat": 0.001575,
+      "description": "Matched-form search restricted to the same decade as the observed target."
+    }
+  ],
+  "warning": "Neither p-hat is I_EW. Neither p-hat is T_obs."
+}
