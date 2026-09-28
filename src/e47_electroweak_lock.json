@@ -53,5 +53,8 @@
   "instrument": "E47 Electroweak Identities",
   "kernel": "(C - 6I)(C - 30I)",
   "look_elsewhere": "NOT COMPUTED. Not claimed.",
-  "status": "FROZEN"
+  "status": "UNFROZEN",
+  "unfrozen_utc": "2026-09-28T17:26:00Z",
+  "prior_status": "FROZEN",
+  "mutation_policy": "I1, I2, I3 may be edited in place. Snapshot of the 2026-09-28 freeze remains historical."
 }
