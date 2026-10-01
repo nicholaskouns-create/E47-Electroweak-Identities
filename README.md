@@ -1,7 +1,5 @@
 # E47 Electroweak Identities
 
-**[MATHEMATICAL CITY ATLAS](https://nicholaskouns-create.github.io/E47-Kartekeya/interfaces/mathematical-city/)**
-
 
 **Three identities. One external scale. No fit.**
 
