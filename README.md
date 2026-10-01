@@ -1,5 +1,7 @@
 # E47 Electroweak Identities
 
+> **Mathematical City:** [Networked Atlas](https://nicholaskouns-create.github.io/E47-Kartekeya/interfaces/mathematical-city/) · verified by the E47-Kartekeya Pages deployment.
+
 
 **Three identities. One external scale. No fit.**
 
