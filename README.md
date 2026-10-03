@@ -1,6 +1,8 @@
 # E47 Electroweak Identities
 
 > **Main entry portal:** [The Mathematical City](https://nicholaskouns-create.github.io/website/) — explore the districts, interactive labs, and research index.
+>
+> **[Explore PiP Manta](https://nicholaskouns-create.github.io/E47-Kartekeya/interfaces/pip-manta/embed.html)**
 
 
 **Three identities. One external scale. No fit.**
