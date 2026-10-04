@@ -46,6 +46,8 @@ m_Z^{(0)}=92.57858473\,\mathrm{GeV},
 m_W^{(0)}=81.19679015\,\mathrm{GeV}.
 $$
 
+Residuals in the table are the claim boundary. `+1.525%`, `−0.488%`, `−0.171%` are not closure. `78` in the kernel complement is `dim H − dim E47`, not Lucas `L_9` (`L_9=76`).
+
 Status: **UNFROZEN** · 28 September 2026 · Nicholas S. Kouns · AIMS Research Institute
 
 [Live page](https://nicholaskouns-create.github.io/electroweak/) · [How to read](docs/HOW_TO_READ.md) · [Symbolic proof](docs/E47_Electroweak_and_Mass_Ladder_Recovery.md) · [Audit table](docs/audit_ladder.md) · [Look-elsewhere audit source](audit/e47_mass_ladder_look_elsewhere_audit.py) · [Supplemental MC](docs/SUPPLEMENTAL_MONTE_CARLO.md) · [Generator](src/e47_electroweak_identities.py)

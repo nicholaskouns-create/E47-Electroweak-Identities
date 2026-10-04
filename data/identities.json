@@ -9,9 +9,19 @@
   "G_F_GeV_m2": 1.1663788e-05,
   "v_GeV": 246.21964023926205,
   "identities": {
-    "I1": {"name": "m_Z^(0) = v * Omega_c", "value_GeV": 92.57858472996253},
-    "I2": {"name": "m_W/m_Z = sqrt(10/13)", "value": 0.8770580193070292, "m_W0_GeV": 81.19679015350891},
-    "I3": {"name": "m_t/m_H = 1 + Omega_c", "value": 1.376}
+    "I1": {
+      "name": "m_Z^(0) = v * Omega_c",
+      "value_GeV": 92.57858472996253
+    },
+    "I2": {
+      "name": "m_W/m_Z = sqrt(10/13)",
+      "value": 0.8770580193070292,
+      "m_W0_GeV": 81.19679015350891
+    },
+    "I3": {
+      "name": "m_t/m_H = 1 + Omega_c",
+      "value": 1.376
+    }
   },
   "residuals_pct": {
     "m_Z_over_v": 1.5249646115305986,
@@ -23,5 +33,7 @@
     "local_factor_x3_p_hat": 0.00714,
     "same_decade_p_hat": 0.001575,
     "headline_claim": false
-  }
+  },
+  "evidence_class": "E1 identity map; residuals are E3 comparisons, not closure",
+  "residual_boundary": "I1 +1.525%, I2 -0.488%, I3 -0.171% are the claim boundary. They are not a recovered equality."
 }
