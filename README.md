@@ -4,6 +4,11 @@
 >
 > **[Explore PiP Manta](https://nicholaskouns-create.github.io/E47-Kartekeya/interfaces/pip-manta/embed.html)**
 
+## Canonical E47 kernel authority · 2026-10-08
+
+This instrument inherits the finite E47 kernel but does not redefine it. The current authority is [E47 Grassmann–Casimir Formalism (corrected)](https://github.com/nicholaskouns-create/E47-Kartekeya/blob/main/research/e47/E47_Grassmann_Casimir_Formalism_Corrected_20261008.md): `dim ker K = 47`, the physical projector identity is `P^T G = G P`, the distinct Grassmann constraint map has `dim ker A = 82`, and set equality of a 47-dimensional Grassmann intersection with `ker K` requires an explicit witness.
+
+Cross-platform route: [Notion canonical formalism](https://app.notion.com/p/3a046094fd30811eb015e14e1c5bce7c) · [Drive archive](https://docs.google.com/document/d/1F6UvhIOElXLoTPMW3VtOntxv86r81uKQeGcQikNv3bE) · [Supabase Citadel](https://gpkjvihkyectnenvnbng.supabase.co/functions/v1/city-app-host/see/) · [Linear REC-12](https://linear.app/4521/issue/REC-12/publish-e47-grassmann-casimir-proof-and-34-check-python-package).
 
 **Three identities. One external scale. No fit.**
 
