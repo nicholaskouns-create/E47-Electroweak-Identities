@@ -83,6 +83,7 @@ V2^{⊗ 3}  →  C  →  K=(C-6I)(C-30I)  →  E47 = ker K
   That table is [audit only](docs/audit_ladder.md).
 - $c(3\,\mathrm{GeV})$ is a running of $47/37$, not a recovered closed form.
 - Supplemental matched-form $\hat p$ values live in a [separate note](docs/SUPPLEMENTAL_MONTE_CARLO.md). They pressure the audit ladder. They do not replace $I_1,I_2,I_3$.
+- Not yet a derivation of $\sqrt{10/13}$. $I_2$ is stated beside the kernel; no step from $K$ to $10/13$ is deposited here.
 
 ## Audit snapshot
 
@@ -92,6 +93,14 @@ $$
 \mathrm{RMS}(\delta)=0.77\%,\quad
 \max|\delta|=1.74\%.
 $$
+
+Deposited look-elsewhere audit, reproducible here and run in CI ([source](audit/e47_mass_ladder_look_elsewhere_audit.py), fixed seeds):
+
+| Null | $p$ | What it measures |
+|---|---:|---|
+| flexible template, log-uniform targets | $\approx 0.043$ | how often random targets fit as well under the same grammar |
+| flexible template, linear targets | $\approx 0.012$ | the same, with linear mantissas |
+| global DAG, random atoms | $<1.8\times10^{-5}$ (0 of 163,345) | atom choice, conditional on the formulas as chosen |
 
 Supplemental matched-form audit, certified executed, not deposited as raw draws:
 
@@ -121,4 +130,4 @@ Machine copies: [data/identities.json](data/identities.json) · [data/supplement
 
 ## Cite
 
-Use [CITATION.cff](CITATION.cff). License: [CC0 1.0](LICENSE).
+Use [CITATION.cff](CITATION.cff). License: [CC BY 4.0](LICENSE).

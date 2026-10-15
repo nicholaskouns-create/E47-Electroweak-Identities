@@ -28,7 +28,16 @@
     "m_W_over_m_Z": -0.48779051605667484,
     "m_t_over_m_H": -0.17082922871877868
   },
-  "look_elsewhere": "SUPPLEMENTAL ONLY. See data/supplemental_monte_carlo.json.",
+  "look_elsewhere": "Deposited audit reproducible from audit/e47_mass_ladder_look_elsewhere_audit.py; matched-form values supplemental. Neither is a global p-value for I1-I3.",
+  "deposited_audit": {
+    "source": "audit/e47_mass_ladder_look_elsewhere_audit.py",
+    "flexible_null_log_uniform_p": 0.0432,
+    "flexible_null_linear_p": 0.0118,
+    "global_dag_null_hits": 0,
+    "global_dag_null_valid_draws": 163345,
+    "global_dag_null_p_upper_95": 1.83e-05,
+    "headline_claim": false
+  },
   "supplemental_monte_carlo": {
     "local_factor_x3_p_hat": 0.00714,
     "same_decade_p_hat": 0.001575,

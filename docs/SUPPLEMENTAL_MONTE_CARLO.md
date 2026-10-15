@@ -66,6 +66,10 @@ These are not the two design nulls written into the earlier look-elsewhere scaff
 
 Those artifacts can be appended later without touching $I_1,I_2,I_3$.
 
+## Deposited audit, for comparison
+
+`audit/e47_mass_ladder_look_elsewhere_audit.py` is deposited and runs in CI with fixed seeds. It reports $p\approx 0.043$ (flexible-template null, log-uniform targets), $p\approx 0.012$ (linear targets), and 0 hits in 163,345 valid global-DAG draws ($p<1.8\times10^{-5}$, conditional on the formulas as chosen). Those are the figures a reader can reproduce from this repository today.
+
 ## Logical placement
 
 ```text
