@@ -131,3 +131,5 @@ Machine copies: [data/identities.json](data/identities.json) · [data/supplement
 ## Cite
 
 Use [CITATION.cff](CITATION.cff). License: [CC BY 4.0](LICENSE).
+
+[The E₄₇ spectral kernel · formalism and verification](e47-spectral-kernel/README.md)
