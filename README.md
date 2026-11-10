@@ -1,5 +1,8 @@
 # E47 Electroweak Identities
 
+> **Current licensing:** [All Rights Reserved](LICENSE) for original material owned by Nicholas Shane Kouns. No new reuse permission is granted. Previously granted licenses and third-party/public-domain rights remain unaffected.
+
+
 > **Main entry portal:** [The Mathematical City](https://nicholaskouns-create.github.io/website/) — explore the districts, interactive labs, and research index.
 >
 > **[Explore PiP Manta](https://nicholaskouns-create.github.io/E47-Kartekeya/interfaces/pip-manta/embed.html)**
@@ -130,6 +133,6 @@ Machine copies: [data/identities.json](data/identities.json) · [data/supplement
 
 ## Cite
 
-Use [CITATION.cff](CITATION.cff). License: [CC BY 4.0](LICENSE).
+Use [CITATION.cff](CITATION.cff). Current license: [All Rights Reserved](LICENSE).
 
 [The E₄₇ spectral kernel · formalism and verification](e47-spectral-kernel/README.md)
