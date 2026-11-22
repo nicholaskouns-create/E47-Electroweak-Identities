@@ -141,3 +141,11 @@ Machine copies: [data/identities.json](data/identities.json) · [data/supplement
 Use [CITATION.cff](CITATION.cff). Current license: [All Rights Reserved](LICENSE).
 
 [The E₄₇ spectral kernel · formalism and verification](e47-spectral-kernel/README.md)
+
+
+<!-- FUN-WITH-EINSTEIN-2026 -->
+### 🪐 Fun With Einstein — mathematical research lab
+[Live interactive lab](https://nicholaskouns-create.github.io/fun-with-einstein/) · [Python, Lean, Coq certificate sources](https://github.com/nicholaskouns-create/E47-Kartekeya/tree/main/docs/fun-with-einstein) · [Continuous integration](https://github.com/nicholaskouns-create/E47-Kartekeya/actions/workflows/fun-with-einstein.yml)
+
+Exact C₅ ratio φ⁻², E₄₇ rank-47 projector, 250D ancilla measurement and separately scoped stationary Einstein recovery.
+<!-- /FUN-WITH-EINSTEIN-2026 -->
